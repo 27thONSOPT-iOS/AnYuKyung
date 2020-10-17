@@ -29,18 +29,20 @@ class LoginViewController: UIViewController {
      */
     @IBAction func LoginBtn(_ sender: Any) {
 //        self.dismiss(animated:true,completion:nil)
+        let preVC = self.presentingViewController
+        guard let vc = preVC as? ViewController else {
+                    return
+                }
         
-        guard let dvc = self.storyboard?.instantiateViewController(identifier:
-                                                                    "ViewController") as? ViewController else { return
-        }
         
-        dvc.userpart = self.part.text
-        dvc.username = self.name.text
+        vc.userpart = self.part.text
+        vc.username = self.name.text
         
         // modal 스타일 변경
         
-        dvc.modalPresentationStyle = .fullScreen
-        self.present(dvc, animated: true, completion: nil)
+        vc.modalPresentationStyle = .fullScreen
+        self.presentingViewController?.dismiss(animated: true)
+//        self.present(dvc, animated: true, completion: nil)
     }
     
 }

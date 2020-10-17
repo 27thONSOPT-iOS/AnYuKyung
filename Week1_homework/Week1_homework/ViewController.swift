@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    override func viewWillAppear(_ animated: Bool) {
+        setLabel()
+    }
     
     @IBAction func GoLoginBtn(_ sender: Any) {
     }
