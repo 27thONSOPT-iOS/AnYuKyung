@@ -11,6 +11,14 @@ class CollectionViewCell: UICollectionViewCell {
     
     static let identifier = "CollectionViewCell"
     
+    static func nib() -> UINib{
+        return UINib(nidname: "CollectionViewCell", bundle: nil)
         
     }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        backg
+    }
+
 }

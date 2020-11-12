@@ -13,6 +13,10 @@
 		FC2E4175254E9D3C00434887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2E4173254E9D3C00434887 /* Main.storyboard */; };
 		FC2E4177254E9D3D00434887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2E4176254E9D3D00434887 /* Assets.xcassets */; };
 		FC2E417A254E9D3D00434887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2E4178254E9D3D00434887 /* LaunchScreen.storyboard */; };
+		FC725E5A25568F2F003884F8 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC725E5925568F2F003884F8 /* Members.swift */; };
+		FCFEF869255552DB00CC01E5 /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFEF867255552DB00CC01E5 /* myCollectionViewCell.swift */; };
+		FCFEF86A255552DB00CC01E5 /* myCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFEF868255552DB00CC01E5 /* myCollectionViewCell.xib */; };
+		FCFEF86F255559DE00CC01E5 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFEF86E255559DE00CC01E5 /* HeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FC2E4176254E9D3D00434887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2E4179254E9D3D00434887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2E417B254E9D3D00434887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC725E5925568F2F003884F8 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		FCFEF867255552DB00CC01E5 /* myCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCFEF868255552DB00CC01E5 /* myCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCollectionViewCell.xib; sourceTree = "<group>"; };
+		FCFEF86E255559DE00CC01E5 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		FC2E416C254E9D3C00434887 /* Week3_homework */ = {
 			isa = PBXGroup;
 			children = (
+				FC2E4176254E9D3D00434887 /* Assets.xcassets */,
 				FC2E416D254E9D3C00434887 /* AppDelegate.swift */,
 				FC2E416F254E9D3C00434887 /* SceneDelegate.swift */,
 				FC2E4171254E9D3C00434887 /* ViewController.swift */,
 				FC2E4173254E9D3C00434887 /* Main.storyboard */,
-				FC2E4176254E9D3D00434887 /* Assets.xcassets */,
 				FC2E4178254E9D3D00434887 /* LaunchScreen.storyboard */,
 				FC2E417B254E9D3D00434887 /* Info.plist */,
+				FCFEF867255552DB00CC01E5 /* myCollectionViewCell.swift */,
+				FCFEF868255552DB00CC01E5 /* myCollectionViewCell.xib */,
+				FC725E5925568F2F003884F8 /* Members.swift */,
+				FCFEF86E255559DE00CC01E5 /* HeaderCollectionReusableView.swift */,
 			);
 			path = Week3_homework;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			files = (
 				FC2E417A254E9D3D00434887 /* LaunchScreen.storyboard in Resources */,
 				FC2E4177254E9D3D00434887 /* Assets.xcassets in Resources */,
+				FCFEF86A255552DB00CC01E5 /* myCollectionViewCell.xib in Resources */,
 				FC2E4175254E9D3C00434887 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +152,9 @@
 			files = (
 				FC2E4172254E9D3C00434887 /* ViewController.swift in Sources */,
 				FC2E416E254E9D3C00434887 /* AppDelegate.swift in Sources */,
+				FCFEF869255552DB00CC01E5 /* myCollectionViewCell.swift in Sources */,
+				FC725E5A25568F2F003884F8 /* Members.swift in Sources */,
+				FCFEF86F255559DE00CC01E5 /* HeaderCollectionReusableView.swift in Sources */,
 				FC2E4170254E9D3C00434887 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

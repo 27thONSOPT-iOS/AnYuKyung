@@ -7,11 +7,19 @@
 
 import UIKit
 
-class myCollectionViewCell: UICollectionViewCell {
+class myCollectionViewCell:
+    UICollectionViewCell {
+    
+    static let identifier = "myCollectionViewCell"
+    
+    static func nib() -> UINib {
+        return UINib(nibName: "myCollectionViewCell", bundle: nil)
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        backgroundColor = .white
     }
 
 }
+
