@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC6194C8255E69B2005513F9 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6194C7255E69B2005513F9 /* loginVC.swift */; };
 		FC725E392556805D003884F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC725E382556805D003884F8 /* AppDelegate.swift */; };
 		FC725E3B2556805D003884F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC725E3A2556805D003884F8 /* SceneDelegate.swift */; };
 		FC725E3D2556805D003884F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC725E3C2556805D003884F8 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC6194C7255E69B2005513F9 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 		FC725E352556805D003884F8 /* Week4_homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week4_homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC725E382556805D003884F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC725E3A2556805D003884F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				FC725E3C2556805D003884F8 /* ViewController.swift */,
 				FC725E5C25568FAE003884F8 /* Members.swift */,
 				FC725E3E2556805D003884F8 /* Main.storyboard */,
+				FC6194C7255E69B2005513F9 /* loginVC.swift */,
 				FC725E5025568578003884F8 /* myCollectionViewCell.swift */,
 				FC725E5125568578003884F8 /* myCollectionViewCell.xib */,
 				FC725E4D2556849A003884F8 /* HeaderVCCollectionReusableView.swift */,
@@ -153,6 +156,7 @@
 				FC725E3D2556805D003884F8 /* ViewController.swift in Sources */,
 				FC725E5225568578003884F8 /* myCollectionViewCell.swift in Sources */,
 				FC725E392556805D003884F8 /* AppDelegate.swift in Sources */,
+				FC6194C8255E69B2005513F9 /* loginVC.swift in Sources */,
 				FC725E5D25568FAE003884F8 /* Members.swift in Sources */,
 				FC725E3B2556805D003884F8 /* SceneDelegate.swift in Sources */,
 				FC725E4E2556849A003884F8 /* HeaderVCCollectionReusableView.swift in Sources */,
@@ -303,7 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Week3_homework2/Info.plist;
+				INFOPLIST_FILE = Week4_homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,7 +325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Week3_homework2/Info.plist;
+				INFOPLIST_FILE = Week4_homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
