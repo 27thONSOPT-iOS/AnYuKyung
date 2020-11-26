@@ -30,7 +30,7 @@ class loginVC: UIViewController {
             if self.view.frame.origin.y == 0 {
                 self.view.frame.origin.y -= keyboardSize.height / 2
             }
-            UIView.animate(withDuration: 0.3, animations: {
+            UIView.animate(withDuration: 0.5, animations: {
                             self.view.layoutIfNeeded()
                         })
         }
@@ -42,9 +42,10 @@ class loginVC: UIViewController {
         if self.view.frame.origin.y != 0{
             self.view.frame.origin.y = 0
         }
-        UIView.animate(withDuration: 0.3, animations: {
+        UIView.animate(withDuration: 0.5, animations: {
                         self.view.layoutIfNeeded()
                     })
+        //강의자료에 트랜스폼으로 애니메이션줘라~~~ 감사합니당~~
     }
 
     func moveviewwithkeyboard(){
