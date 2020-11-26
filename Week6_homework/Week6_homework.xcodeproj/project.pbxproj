@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F7AEED75B86408EDDFB5E57 /* Pods_Week6_homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC17B1C57D40CA466B36A0B0 /* Pods_Week6_homework.framework */; };
 		FCE18D9B25700F37002B6A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18D9A25700F37002B6A04 /* AppDelegate.swift */; };
 		FCE18D9D25700F37002B6A04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18D9C25700F37002B6A04 /* SceneDelegate.swift */; };
 		FCE18D9F25700F37002B6A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18D9E25700F37002B6A04 /* ViewController.swift */; };
 		FCE18DA225700F37002B6A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE18DA025700F37002B6A04 /* Main.storyboard */; };
 		FCE18DA425700F38002B6A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE18DA325700F38002B6A04 /* Assets.xcassets */; };
 		FCE18DA725700F38002B6A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE18DA525700F38002B6A04 /* LaunchScreen.storyboard */; };
+		FCE18DBA2570126A002B6A04 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DB92570126A002B6A04 /* UserService.swift */; };
+		FCE18DBE25701290002B6A04 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DBD25701290002B6A04 /* AuthService.swift */; };
+		FCE18DC1257012B9002B6A04 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DC0257012B9002B6A04 /* NetworkResult.swift */; };
+		FCE18DC425701345002B6A04 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE18DC325701345002B6A04 /* Login.storyboard */; };
+		FCE18DCB25701480002B6A04 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DCA25701480002B6A04 /* APIConstants.swift */; };
+		FCE18DCF257014A8002B6A04 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE18DCE257014A8002B6A04 /* SignUp.storyboard */; };
+		FCE18DD3257014DB002B6A04 /* SignInData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DD2257014DB002B6A04 /* SignInData.swift */; };
+		FCE18DD62570150E002B6A04 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DD52570150E002B6A04 /* SignUpVC.swift */; };
+		FCE18DD92570155D002B6A04 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DD82570155D002B6A04 /* LoginVC.swift */; };
+		FCE18DDC2570159E002B6A04 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE18DDB2570159E002B6A04 /* GenericResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16B108DA30E7A65891B4BBFF /* Pods-Week6_homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week6_homework.debug.xcconfig"; path = "Target Support Files/Pods-Week6_homework/Pods-Week6_homework.debug.xcconfig"; sourceTree = "<group>"; };
+		AC17B1C57D40CA466B36A0B0 /* Pods_Week6_homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week6_homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1EB7F615EA38CD03569A30 /* Pods-Week6_homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week6_homework.release.xcconfig"; path = "Target Support Files/Pods-Week6_homework/Pods-Week6_homework.release.xcconfig"; sourceTree = "<group>"; };
 		FCE18D9725700F37002B6A04 /* Week6_homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week6_homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE18D9A25700F37002B6A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCE18D9C25700F37002B6A04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,16 @@
 		FCE18DA325700F38002B6A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE18DA625700F38002B6A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCE18DA825700F38002B6A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE18DB92570126A002B6A04 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FCE18DBD25701290002B6A04 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		FCE18DC0257012B9002B6A04 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		FCE18DC325701345002B6A04 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FCE18DCA25701480002B6A04 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		FCE18DCE257014A8002B6A04 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		FCE18DD2257014DB002B6A04 /* SignInData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInData.swift; sourceTree = "<group>"; };
+		FCE18DD52570150E002B6A04 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		FCE18DD82570155D002B6A04 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FCE18DDB2570159E002B6A04 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7AEED75B86408EDDFB5E57 /* Pods_Week6_homework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E23F56785324DDB2EDE3476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16B108DA30E7A65891B4BBFF /* Pods-Week6_homework.debug.xcconfig */,
+				DF1EB7F615EA38CD03569A30 /* Pods-Week6_homework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD7C274B2E0073D1FC2A56C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC17B1C57D40CA466B36A0B0 /* Pods_Week6_homework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCE18D8E25700F37002B6A04 = {
 			isa = PBXGroup;
 			children = (
 				FCE18D9925700F37002B6A04 /* Week6_homework */,
 				FCE18D9825700F37002B6A04 /* Products */,
+				6E23F56785324DDB2EDE3476 /* Pods */,
+				DD7C274B2E0073D1FC2A56C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +100,14 @@
 		FCE18D9925700F37002B6A04 /* Week6_homework */ = {
 			isa = PBXGroup;
 			children = (
+				FCE18DB6257011F8002B6A04 /* APIService */,
 				FCE18D9A25700F37002B6A04 /* AppDelegate.swift */,
+				FCE18DC325701345002B6A04 /* Login.storyboard */,
+				FCE18DCE257014A8002B6A04 /* SignUp.storyboard */,
+				FCE18DD2257014DB002B6A04 /* SignInData.swift */,
+				FCE18DD52570150E002B6A04 /* SignUpVC.swift */,
+				FCE18DDB2570159E002B6A04 /* GenericResponse.swift */,
+				FCE18DD82570155D002B6A04 /* LoginVC.swift */,
 				FCE18D9C25700F37002B6A04 /* SceneDelegate.swift */,
 				FCE18D9E25700F37002B6A04 /* ViewController.swift */,
 				FCE18DA025700F37002B6A04 /* Main.storyboard */,
@@ -67,6 +118,17 @@
 			path = Week6_homework;
 			sourceTree = "<group>";
 		};
+		FCE18DB6257011F8002B6A04 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				FCE18DB92570126A002B6A04 /* UserService.swift */,
+				FCE18DBD25701290002B6A04 /* AuthService.swift */,
+				FCE18DC0257012B9002B6A04 /* NetworkResult.swift */,
+				FCE18DCA25701480002B6A04 /* APIConstants.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCE18DAB25700F38002B6A04 /* Build configuration list for PBXNativeTarget "Week6_homework" */;
 			buildPhases = (
+				ED7DA3E1688984C961D4FA31 /* [CP] Check Pods Manifest.lock */,
 				FCE18D9325700F37002B6A04 /* Sources */,
 				FCE18D9425700F37002B6A04 /* Frameworks */,
 				FCE18D9525700F37002B6A04 /* Resources */,
+				C13E1E33D9C082BFE4F261B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +188,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE18DC425701345002B6A04 /* Login.storyboard in Resources */,
 				FCE18DA725700F38002B6A04 /* LaunchScreen.storyboard in Resources */,
 				FCE18DA425700F38002B6A04 /* Assets.xcassets in Resources */,
 				FCE18DA225700F37002B6A04 /* Main.storyboard in Resources */,
+				FCE18DCF257014A8002B6A04 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C13E1E33D9C082BFE4F261B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week6_homework/Pods-Week6_homework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week6_homework/Pods-Week6_homework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Week6_homework/Pods-Week6_homework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7DA3E1688984C961D4FA31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Week6_homework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCE18D9325700F37002B6A04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE18DBA2570126A002B6A04 /* UserService.swift in Sources */,
+				FCE18DD62570150E002B6A04 /* SignUpVC.swift in Sources */,
+				FCE18DCB25701480002B6A04 /* APIConstants.swift in Sources */,
+				FCE18DDC2570159E002B6A04 /* GenericResponse.swift in Sources */,
 				FCE18D9F25700F37002B6A04 /* ViewController.swift in Sources */,
+				FCE18DD92570155D002B6A04 /* LoginVC.swift in Sources */,
+				FCE18DBE25701290002B6A04 /* AuthService.swift in Sources */,
 				FCE18D9B25700F37002B6A04 /* AppDelegate.swift in Sources */,
+				FCE18DD3257014DB002B6A04 /* SignInData.swift in Sources */,
 				FCE18D9D25700F37002B6A04 /* SceneDelegate.swift in Sources */,
+				FCE18DC1257012B9002B6A04 /* NetworkResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +399,7 @@
 		};
 		FCE18DAC25700F38002B6A04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B108DA30E7A65891B4BBFF /* Pods-Week6_homework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +418,7 @@
 		};
 		FCE18DAD25700F38002B6A04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1EB7F615EA38CD03569A30 /* Pods-Week6_homework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

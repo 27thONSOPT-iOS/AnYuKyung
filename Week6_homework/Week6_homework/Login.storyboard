@@ -11,7 +11,7 @@
         <!--LoginVC-->
         <scene sceneID="0yj-cb-R7f">
             <objects>
-                <viewController id="Mvu-78-n51" customClass="LoginVC" customModule="Week6_seminar" sceneMemberID="viewController">
+                <viewController id="Mvu-78-n51" customClass="LoginVC" customModule="Week6_homework" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zof-ma-9eD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,8 +64,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="emailField" destination="ctl-fp-Kxv" id="FJB-iR-dMc"/>
-                        <outlet property="passwordField" destination="SJS-AO-qFk" id="tOy-EU-YLI"/>
+                        <outlet property="emailField" destination="ctl-fp-Kxv" id="MPB-gV-bYC"/>
+                        <outlet property="passwordField" destination="SJS-AO-qFk" id="tie-HD-OLf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqj-JJ-7V5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+struct  SignInData: Codable {
+    var email, password, userName: String
+}
